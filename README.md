@@ -125,22 +125,24 @@ reports/figures/
 ---
 
 ## Project Structure
+
+```text
 online-retail-segmentation/
 ├── data/
-│ ├── raw/
-│ ├── interim/
-│ └── processed/
+│   ├── raw/
+│   ├── interim/
+│   └── processed/
 ├── src/
-│ ├── data_cleaning.py
-│ ├── rfm.py
-│ ├── rfm_features.py
-│ ├── kmeans_clustering.py
-│ ├── cluster_profiling.py
-│ ├── temporal_analysis.py
-│ └── visualization.py
+│   ├── data_cleaning.py
+│   ├── rfm.py
+│   ├── rfm_features.py
+│   ├── kmeans_clustering.py
+│   ├── cluster_profiling.py
+│   ├── temporal_analysis.py
+│   └── visualization.py
 ├── reports/
-│ └── figures/
-├── insights.md
+│   ├── figures/
+│   └── insights.md
 ├── README.md
 └── requirements.txt
 
